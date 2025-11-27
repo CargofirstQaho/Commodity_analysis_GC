@@ -1,54 +1,52 @@
-# 🌾 Commodity Analysis GC
+<div align="center">
 
-[![Project Type](https://img.shields.io/badge/Project-Data%20Analysis-blue)]()
-[![Language-Python](https://img.shields.io/badge/Language-Python-green)]()
-[![Status](https://img.shields.io/badge/Status-Active-success)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)]()
+# 🌾 **Quality.ai — Commodity Analysis GC**
+### *AI-Driven Agricultural Commodity Analytics | In Partnership with CargoFirst*
+
+---
+
+![Maintenance](https://img.shields.io/badge/Maintained-Active-brightgreen)
+![Status](https://img.shields.io/badge/Status-Research%20&%20Analysis-blue)
+![Tech](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow)
+![License](https://img.shields.io/badge/License-Internal%20Use-lightgrey)
+
+</div>
 
 ---
 
 ## 📌 **Overview**
-**Commodity Analysis GC** is a data-analysis project focusing on agricultural commodity datasets — currently analyzing **Chickpea**, **Rice**, and **Wheat**.  
-The notebooks demonstrate a complete end-to-end workflow including data cleaning, exploratory data analysis (EDA), visualization, and comparative insights for commodity behavior.
+**Quality.ai**, together with **CargoFirst**, is building the next-generation AI ecosystem for automated agricultural commodity inspection and real-time grading systems.  
+This repository contains foundational analytical notebooks for understanding the **behavior, characteristics, and dataset patterns** of various commodities — currently **Chickpea, Rice, and Wheat**.
 
-The project acts as a structured, reproducible and extendable reference for students, researchers, developers working on agricultural economics and commodity-trend analysis.
-
----
-
-## 🎯 **Objectives**
-- Understand commodity-market patterns and agricultural trends
-- Perform statistical and visual analysis for better interpretation
-- Provide reusable notebook templates for commodity comparisons
-- Demonstrate clean and replicable workflow using Python
-
----
--Commodity_analysis_GC/
--│
--├── chickpeawhite.ipynb # Analysis notebook for chickpeas
--├── rice.ipynb # Analysis notebook for rice
--├── wheatFinal.ipynb # Analysis notebook for wheat
--├── README.md # Project documentation
-
+The insights derived here directly support our product direction for scalable **AI-powered quality analysis**, contributing to defect detection, grading standards, and model development.
 
 ---
 
-## 📊 **Notebooks Included**
+## 🎯 **Project Scope & Purpose**
+- Perform **Exploratory Data Analysis (EDA)** and statistical understanding of commodity datasets.
+- Study grain properties to inform ML feature extraction and dataset patterns.
+- Build references for scalable dataset pipelines for advanced ML models.
+- Support Quality.ai’s real-time automated inspection products.
 
-| Notebook | Description |
-|----------|-------------|
-| `chickpeawhite.ipynb` | Preprocessing + EDA + Visual trend analysis on chickpea datasets |
-| `rice.ipynb` | Analysis of rice behavior, visual insights, summary metrics |
-| `wheatFinal.ipynb` | Cleaning + aggregation + visualization and final outputs for wheat |
+This research layer acts as the foundation for integrating datasets into **YOLOv8-based inference models**, automated grading systems, and real-time vision pipelines.
 
 ---
 
-## 🛠️ **Setup & Installation**
+## 📂 **Repository Structure**
+| File | Description |
+|-------|-------------|
+| `chickpeawhite.ipynb` | EDA and visualization of Chickpea grain characteristics |
+| `rice.ipynb` | Data cleaning and exploratory analysis of Rice datasets |
+| `wheatFinal.ipynb` | Wheat dataset study, trend insight and comparative visualization |
+
+> *No dataset files are stored in the repository — please reference your data paths in notebooks.*
+
+---
+
+## ⚙️ **Setup & Running Instructions**
 
 ### **Clone the repository**
 ```bash
 git clone https://github.com/CargofirstQaho/Commodity_analysis_GC.git
 cd Commodity_analysis_GC
-jupyter notebook
-
-## 📁 **Repository Structure**
-
