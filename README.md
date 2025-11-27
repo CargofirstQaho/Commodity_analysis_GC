@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌾 **Quality.ai — Commodity Analysis GC**
-### *AI-Driven Agricultural Commodity Analytics | In Partnership with CargoFirst*
+### *AI-Driven Commodity Analytics | with CargoFirst*
 
 ---
 
